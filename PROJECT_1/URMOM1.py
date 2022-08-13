@@ -2,11 +2,9 @@
 
 userAns = ""
 def main():
-    print("READY FOR SOME GAME???")
-    print("TYPE Y FOR READY AND N FOR NOT READY(LAME)")
-    global userAns 
-    userAns= input("Ur ans : ")
+    word = "bro"
+    for letter in word:
+        print(letter)
 
 main()
-print(userAns)
 
