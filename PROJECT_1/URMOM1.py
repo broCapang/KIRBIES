@@ -2,7 +2,7 @@
 from englishWord import word
 import random
 import string
-
+from hangmanVisual import lives_visual_dict
 def guess_word_valid():
     wordChoice = random.choice(word)
     if(" " in wordChoice or "-" in wordChoice):
@@ -21,6 +21,7 @@ def hangman():
         word_list = [display if display in used_letter else '_' for display in guess_word]
         print(word_list)
         print("Used letter : "+ ' '.join(used_letter))
+        print(lives_visual_dict[lives])
         print("Remaining lives : " , lives)
         user_letter = input("Your letter : ").upper()
         if user_letter in alphabet - used_letter:
@@ -33,9 +34,12 @@ def hangman():
                 lives-=1
         else:
             print("use different letter")
-
-    print("You won, great!",guess_word)
-    
+        
+    print(lives_visual_dict[lives])
+    if lives>0:
+        print("You won, great!",guess_word)
+    else:
+        print("DAMN LOSER", guess_word)
 hangman()
 
 
