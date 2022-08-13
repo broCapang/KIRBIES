@@ -2,7 +2,8 @@
 ## WE CREATING STUFFS
 
 Things that are fun for us to do when we are bored
-Trying to make something simple into a WHOLE DIFFERENT LEVEL (our level)
+
+Trying to take us into different level
 
 ## Projects
 
