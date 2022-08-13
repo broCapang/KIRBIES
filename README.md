@@ -12,6 +12,8 @@ PROJECT 1 ---> HANGMAN GAME ( In Progress )
    - also can make a pretty gui for it
    
 ## COLLABORATORS
-Irfan Haziq
+[Irfan Haziq](https://www.linkedin.com/in/mohamad-irfan-haziq-bin-mohd-khazani-6baa47175/)
+
 Shafiq Aiman
+
 Izz Hadif 
