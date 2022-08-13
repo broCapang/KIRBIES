@@ -14,6 +14,6 @@ PROJECT 1 ---> HANGMAN GAME ( In Progress )
 ## COLLABORATORS
 [Irfan Haziq](https://www.linkedin.com/in/mohamad-irfan-haziq-bin-mohd-khazani-6baa47175/)
 
-Shafiq Aiman
+[Shafiq Aiman](https://www.linkedin.com/in/shafiq-aiman-555302239/)
 
 Izz Hadif 
