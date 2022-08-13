@@ -7,10 +7,18 @@ Trying to take us into different level
 
 ## Projects
 
-PROJECT 1 ---> HANGMAN GAME ( In Progress )
-   - a simple hangman game
-   - but we trying to make it a web-based 
-   - also can make a pretty gui for it
+PROJECT 1 ---> HANGMAN GAME 
+   ( In Progress )
+   - Progession
+   
+      - whole algorithm has been sorted out
+      - can play but on console 
+      
+   - Objectives
+   
+      - a simple hangman game
+      - but we trying to make it a web-based 
+      - also can make a pretty gui for it
    
 ## COLLABORATORS
 [Irfan Haziq](https://www.linkedin.com/in/mohamad-irfan-haziq-bin-mohd-khazani-6baa47175/)
