@@ -1,2 +1,2 @@
 C=25
-print(C in range(15,25+1))
+print(len(15,25+1))
