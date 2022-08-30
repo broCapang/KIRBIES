@@ -1,9 +1,9 @@
 # KIRBIES
-## WE CREATING STUFFS
+## ME CREATNG STUFFS
 
-Things that are fun for us to do when we are bored
+Things that are fun for me to do when bored
 
-Trying to take us into different level
+Main purpose is personal growth
 
 ## Projects
 
