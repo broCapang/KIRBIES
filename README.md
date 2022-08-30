@@ -20,9 +20,7 @@ PROJECT 1 ---> HANGMAN GAME
       - but we trying to make it a web-based 
       - also can make a pretty gui for it
    
-## COLLABORATORS
-[Irfan Haziq](https://www.linkedin.com/in/mohamad-irfan-haziq-bin-mohd-khazani-6baa47175/)
+## Exercises
 
-[Shafiq Aiman](https://www.linkedin.com/in/shafiq-aiman-555302239/)
-
-Izz Hadif 
+-  Kattis
+-  Google KickStart
