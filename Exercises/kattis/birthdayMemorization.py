@@ -5,30 +5,34 @@
 
 n = int(input())
 
-birthdate = ["" for i in range(n)]
-name = ["" for i in range(n)] 
-rank = [0 for i in range(n)] 
-value = dict()
-max = -1
+birthdate = set()
+name = dict()
+rank = dict()
 
-dateToRem = ""
 
 
 for i in range(n):
     bro = input().split()
-    name[i] = bro[0]
-    rank[i] = int(bro[1])
-    birthdate[i] = bro[2]
-    if(max<int(rank[i])):
-        max = rank[i]
-        dateToRem = bro[2]
+    if(bro[2] not in birthdate):
+        birthdate.add(bro[2])
+        name[bro[2]]=bro[0]
+        rank[bro[2]]=bro[1]
+    elif(int(rank[bro[2]])<int(bro[1])):
+        name[bro[2]]=bro[0]
+        rank[bro[2]]=bro[1]
     
+print(len(birthdate))
+ans=""
+for i in birthdate:
+    ans+=(name[i])
+    ans+=(" ")
 
-for i in range(n):
-    if(dateToRem != birthdate[i]):
-        continue
-    else:
-        print(name[i])
+ans= ans.split()
+ans.sort()
+print("\n".join(ans))
+
+
+    
     
 
 
